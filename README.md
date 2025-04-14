@@ -1,8 +1,8 @@
-# QWEL CRAFT TEMPLATE | Created by ― QWEL.DESIGN
+# Creative Tools | Created by ― QWEL.DESIGN
 
-これは、[QWEL.DESIGN](https://qwel.design/) の作品集 Creative Crafts の作品テンプレートです。
+QWEL.DESIGNでスクラッチした、実用的な機能モジュール (PHP/JS) を紹介中。
 
-[https://creative.qwel.design/](https://creative.qwel.design/)
+[https://tools.qwel.design/](https://tools.qwel.design/)
 
 ---
 
