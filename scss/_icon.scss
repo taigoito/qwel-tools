@@ -2,9 +2,9 @@
  * Component - Icon
  */
 
-$iconSizeSm: 1.5rem;
-$iconSizeMd: 3rem;
-$iconSizeLg: 4.5rem;
+$iconSizeSm: 1.5rem !default;
+$iconSizeMd: 3rem !default;
+$iconSizeLg: 4.5rem !default;
 
 .icon {
   position: relative;

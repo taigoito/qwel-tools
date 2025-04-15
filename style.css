@@ -144,6 +144,7 @@ button, input, select, textarea {
 .breadcrumb {
   list-style: none;
   display: flex;
+  flex-flow: row wrap;
   padding: 0;
 }
 .breadcrumb__item {
@@ -177,11 +178,37 @@ button, input, select, textarea {
   margin: 0 auto;
   padding: 0 clamp(0.75rem, 2%, 1.5rem);
 }
-.main h2 > span {
+.main__title::after {
+  content: "✶";
+  color: #ffc080;
+  font-size: 1.25em;
+  margin-left: 0.375rem;
+}
+.main__title > span {
   font-family: "Cormorant Garamond", serif;
 }
-.main ul {
-  margin: 3rem 0;
+.main__list {
+  list-style-type: none;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+.main__listItem::before {
+  content: "✶";
+  padding-right: 0.5em;
+  color: #79c6ec;
+  font-size: 1.5em;
+}
+.main__listItem--spec {
+  color: #808080;
+  font-size: 0.875rem;
+  letter-spacing: 0;
+}
+.main__listItem--spec::before {
+  content: "―";
+  padding-right: 0.5em;
+  color: #ffc080;
+  font-weight: 700;
+  margin-right: 0.375rem;
 }
 
 /**
