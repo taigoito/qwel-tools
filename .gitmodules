@@ -1,0 +1,6 @@
+[submodule "business-calendar"]
+	path = business-calendar
+	url = https://github.com/taigoito/qwel-tools-calendar
+[submodule "contact-form"]
+	path = contact-form
+	url = https://github.com/taigoito/qwel-tools-contact-form
